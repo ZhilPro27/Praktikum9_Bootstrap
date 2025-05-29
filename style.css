@@ -1,0 +1,62 @@
+:root {
+  --umy-green: #2e8b57;
+  --umy-golden-yellow: #ffd700;
+  --umy-dark-text: #343a40;
+  --umy-light-text: #f8f9fa;
+}
+
+.bg-umy-green {
+  background-color: var(--umy-green) !important;
+}
+
+.text-umy-golden-yellow {
+  color: var(--umy-golden-yellow) !important;
+}
+
+.btn-umy-primary {
+  background-color: var(--umy-golden-yellow);
+  border-color: var(--umy-golden-yellow);
+  color: var(--umy-dark-text);
+}
+.btn-umy-primary:hover {
+  background-color: #e6c200;
+  border-color: #e6c200;
+}
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--umy-light-text);
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--umy-golden-yellow);
+}
+
+.carousel-item {
+  height: 600px;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.carousel-caption h5 {
+  color: var(--umy-golden-yellow);
+}
+.carousel-caption p {
+  color: var(--umy-light-text);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
